@@ -1,6 +1,6 @@
 # PostmanLogin
 
-A Maven Framework which is the solution to the test given for the SDET position at Clipboard Health. Written in Java and TestNG for Reports of Test Result. This test follows the Page Object Model(POM) and helper methods were created for repetitive page interactions like click.
+A Maven Framework which is the solution to the test given for the SDET position at Clipboard Health. Selenium tests written in Java and TestNG for Reports of Test Result. This test follows the Page Object Model(POM) and helper methods were created for repetitive page interactions like click.
 This framework has the provision to run the tests locally and on Selenium Grid, also with Docker.
 This framework automates two test cases;
 
@@ -74,3 +74,9 @@ docker-compose -f docker-compose.yml up
 6. Once you verify it has started, In the testng.xml file, Under the test with name "Web Automation", in the parameter tag, with name = "browser", input the value as "remote".
 7. Right click the testng.xml file and select "Run" to start the test.
 
+
+
+### View TestNG Report
+1. Open the test-output folder
+2. Right click on the emailable-report.html file
+3. Select Open in >  Browser > Choose the Browser you want to view the report in
